@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #40407a;
+    color: #ffffff;
+    font-family: Arial;
+}
+
+.cadrasto {
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+}
+
+.cadrastoForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column !important;
+    align-items: center;
+}
+
+.textosCadrasto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column !important;
+    align-items: center;
+}
+
+.tituloCadrasto {
+    color: #7978d1;
+    font-size: 50px;
+}
+
+.iconsLogin {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.google {
+    width: 50px;
+    height: auto;
+}
+
+.fecebook {
+    margin-left: 10px;
+    width: 50px;
+    height: auto;
+}
+
+.linkedin {
+    margin-left: 10px;
+    width: 50px;
+    height: auto;
+}
+
+.inputLogin {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column !important;
+    align-items: left;
+}
+
+.tituloNome {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome {
+    padding: 4px;
+    margin-top: 3px;
+    border-radius: 4px;
+    transition: all 0.5s ease-out;
+    width: 300px;
+    height: 30px;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome:hover {
+    box-shadow: 0 0 1em #34ace0;
+}
+
+.tituloEmail {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email {
+    padding: 4px;
+    margin-top: 3px;
+    border-radius: 4px;
+    transition: all 0.5s ease-out;
+    width: 300px;
+    height: 30px;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email:hover {
+    box-shadow: 0 0 1em #34ace0;
+}
+
+.tituloSenha {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.senha {
+    padding: 4px;
+    margin-top: 3px;
+    border-radius: 4px;
+    transition: all 0.5s ease-out;
+    width: 300px;
+    height: 30px;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.senha:hover {
+    box-shadow: 0 0 1em #34ace0;
+}
+
+.butonEntrar {
+    margin-top: 13%;
+}
+
+.entrar {
+    text-decoration: none; 
+    color: white;
+    transition: all 0.5s ease-out;
+    background-color: #706fd3;
+    padding: 13px;
+    border-radius: 4px;
+}
+
+.entrar:hover {
+    background-color: #5c5ad4;
+}
+
+.imageUnlock {
+    background-color: #474787;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.verifyImage {
+    width: 500px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .imageUnlock {
+        display: none;
+    }
+}
