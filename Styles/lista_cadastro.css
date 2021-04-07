@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #40407a;
+    color: #ffffff;
+    font-family: Arial;
+}
+
+.listaCadastrados {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.todosCadastros {
+    margin-left: 15px;
+}
+
+.todosCadastrosTitulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.users {
+    text-align: left;
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    border-radius: 4px;
+}
+
+table {
+    padding: 20px;
+    width: 700px;
+    height: auto;
+}
+
+.usersCadastro {
+    color: rgb(107, 105, 105);
+}
+
+.listaUsers {
+    color: black;
+    font-size: 20px;
+}
+
+/*UtimosCadastros*/
+
+.utimosCadastros {}
+
+.utimosCadastrosTitulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.usersUtimos {
+    text-align: left;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+}
+
+table {
+    padding: 20px;
+    width: 700px;
+    height: auto;
+}
+
+.usersCadastro {
+    color: rgb(107, 105, 105);
+}
+
+.listaUsers {
+    color: black;
+    font-size: 20px;
+}
+
+/*Aviso*/
+
+.boxAviso {
+    display: flex;
+    justify-content: center;
+}
+
+.tituloAviso {
+    color: rgb(250, 196, 17);
+    font-size: 30px;
+}
+
+.avisosCadastro {
+    padding: 20px;
+    margin-top: 10px;
+    text-align: left;
+    background-color: white;
+    width: 1012px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.descriçãoAviso {
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .listaCadastrados {
+        display: flex;
+        justify-content: center;
+        flex-direction: column !important;
+        align-items: left;
+    }
+
+    .utimosCadastros {
+        margin-left: 15px;
+    }
+
+    .boxAviso {
+
+        align-items: left;
+        text-align: left;
+    }
+
+    .avisosCadastro {
+        padding: 20px;
+        margin-top: 10px;
+        background-color: white;
+        width: 299px;
+        margin-right: 87px;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .users {
+        text-align: left;
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        border-radius: 4px;
+    }
+
+    .null {
+        display: none;
+    }
+}
