@@ -10,27 +10,27 @@ body {
     font-family: Arial;
 }
 
-.cadrasto {
+.cadastro {
     margin-top: 9%;
     display: flex;
     justify-content: center;
 }
 
-.cadrastoForm {
+.cadastroForm {
     display: flex;
     justify-content: center;
     flex-direction: column !important;
     align-items: center;
 }
 
-.textosCadrasto {
+.textoscadastro {
     display: flex;
     justify-content: center;
     flex-direction: column !important;
     align-items: center;
 }
 
-.tituloCadrasto {
+.titulocadastro {
     color: #7978d1;
     font-size: 50px;
 }
@@ -129,7 +129,7 @@ body {
     box-shadow: 0 0 1em #34ace0;
 }
 
-.butonEntrar {
+.buttonEntrar {
     margin-top: 13%;
 }
 
@@ -167,3 +167,5 @@ body {
         display: none;
     }
 }
+
+.nome, .email, .senha { outline: 0 }

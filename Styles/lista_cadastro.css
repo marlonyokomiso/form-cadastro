@@ -48,11 +48,9 @@ table {
     font-size: 20px;
 }
 
-/*UtimosCadastros*/
+/*UltimosCadastros*/
 
-.utimosCadastros {}
-
-.utimosCadastrosTitulo {
+.ultimosCadastrosTitulo {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
